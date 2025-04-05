@@ -4,7 +4,6 @@ on:
       - main
 
 env:
-  # LAMBDA_FUNCTION: "hello"
   AWS_REGION: "us-east-1"
 
 jobs:
