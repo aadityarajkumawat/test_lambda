@@ -7,6 +7,7 @@ from pathlib import Path
 LAMBDA_TASK_ROOT = Path(os.environ["LAMBDA_TASK_ROOT"])
 sys.path.append(str(LAMBDA_TASK_ROOT / "app"))
 sys.path.append(str(LAMBDA_TASK_ROOT / "lib"))
+# ok
 
 
 from mangum import Mangum
